@@ -1,0 +1,38 @@
+{
+    // Formatação automática ao salvar (deixa o código sempre alinhado/bonito)
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.tabSize": 4
+    },
+    "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[markdown]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+    // Visual mais limpo e organizado
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 13,
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": true,
+
+    // Esconde lixo da árvore de arquivos
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.DS_Store": true
+    },
+    "search.exclude": {
+        "**/assets/img/originais": true
+    },
+    "files.associations": {
+        "*.html": "html"
+    }
+}
